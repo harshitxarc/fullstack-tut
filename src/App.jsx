@@ -10,7 +10,6 @@ import Array from './UpdateStateProblem/Array.jsx';
 function App() {
   return(
   <>
-  <Object />
   <Array />
   </>
   );

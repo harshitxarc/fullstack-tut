@@ -8,13 +8,13 @@ function Object(){
                                 model: 'Porche', 
                                 color: 'Red'});
 
-    const handleYearChange = (e) => {
+    function handleYearChange(e){
         setCar(c=>({...c, year: e.target.value}));
     }
-    const handleModelChange = (e) => {
+    function handleModelChange(e){
         setCar(c=>({...c, model: e.target.value}));
     }
-    const handleColorChange = (e) => {
+    function handleColorChange(e){
         setCar(c=>({...c, color: e.target.value}));
     }
 
