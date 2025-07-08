@@ -4,12 +4,14 @@
 // import MyComponent from './MyComponent.jsx';
 // import Counter from './Counter.jsx';
 // import ColorPicker from './ColorPickerApp/ColorPicker.jsx';
-import Object from './Object.jsx';
+import Object from './UpdateStateProblem/Object.jsx';
+import Array from './UpdateStateProblem/Array.jsx';
 
 function App() {
   return(
   <>
   <Object />
+  <Array />
   </>
   );
 }
