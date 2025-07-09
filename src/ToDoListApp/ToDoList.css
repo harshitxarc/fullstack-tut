@@ -1,0 +1,36 @@
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button{
+    background-color: hsl(125, 47%, 54%);
+}
+
+.add-button:hover{
+    background-color: hsl(120, 82%, 44%);
+}
+
+.delete-button{
+    background-color: hsl(0, 100%, 59%);
+}
+
+.delete-button:hover{
+    background-color: hsl(0, 100%, 49%);
+}

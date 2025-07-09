@@ -4,13 +4,15 @@
 // import MyComponent from './MyComponent.jsx';
 // import Counter from './Counter.jsx';
 // import ColorPicker from './ColorPickerApp/ColorPicker.jsx';
-import Object from './UpdateStateProblem/Object.jsx';
-import Array from './UpdateStateProblem/Array.jsx';
+// import Object from './UpdateStateProblem/Object.jsx';
+// import Array from './UpdateStateProblem/Array.jsx';
+
+import ToDoList from './ToDoListApp/ToDoList.jsx';
 
 function App() {
   return(
   <>
-  <Array />
+  <ToDoList />
   </>
   );
 }
