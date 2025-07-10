@@ -1,5 +1,7 @@
 // useEffect is a React hook that allows you to perform side effects in function components. It can be used for tasks like data fetching, subscriptions, or manually changing the DOM. The hook runs after the component renders and can be configured to run only when certain dependencies change.
 
+// useEffect(function, [dependencies])
+
 // useEffect(() => {})                  // Runs after every re-render
 // useEffect(() => {}, [])              // Runs only on mount (once after the initial render)
 // useEffect(() => {}, [value])         // Runs on mount + whenever value changes
