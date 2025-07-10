@@ -6,13 +6,14 @@
 // import ColorPicker from './ColorPickerApp/ColorPicker.jsx';
 // import Object from './UpdateStateProblem/Object.jsx';
 // import Array from './UpdateStateProblem/Array.jsx';
+// import ToDoList from './ToDoListApp/ToDoList.jsx';
 
-import ToDoList from './ToDoListApp/ToDoList.jsx';
+import UseEffectTut from './UseEffectProblem/UseEffectTut.jsx';
 
 function App() {
   return(
   <>
-  <ToDoList />
+  <UseEffectTut />
   </>
   );
 }
