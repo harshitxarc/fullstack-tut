@@ -8,14 +8,15 @@
 // import Array from './UpdateStateProblem/Array.jsx';
 // import ToDoList from './ToDoListApp/ToDoList.jsx';
 // import UseEffectTut from './UseEffectProblem/UseEffectTut.jsx';
-//import UseEffectTut2 from './UseEffectProblem/UseEffectTut2.jsx';
+// import UseEffectTut2 from './UseEffectProblem/UseEffectTut2.jsx';
+// import DigitalClock from './DigitalClockApp/DigitalClock.jsx';
 
-import DigitalClock from './DigitalClockApp/DigitalClock.jsx';
+import ComponentA from './UseContextProblem/ComponentA';
 
 function App() {
   return(
   <>
-  <DigitalClock />
+  <ComponentA />
   </>
   );
 }
