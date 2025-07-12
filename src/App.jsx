@@ -13,9 +13,12 @@
 //import ComponentA from './UseContextProblem/ComponentA';
 //import UseRefTut from './UseRefProblem/UseRefTut';
 
+import UseRefTut2 from './UseRefProblem/UseRefTut2';
+
 function App() {
   return(
   <>
+  <UseRefTut2 />
   </>
   );
 }
