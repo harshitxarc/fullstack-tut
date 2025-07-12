@@ -11,13 +11,11 @@
 // import UseEffectTut2 from './UseEffectProblem/UseEffectTut2.jsx';
 // import DigitalClock from './DigitalClockApp/DigitalClock.jsx';
 //import ComponentA from './UseContextProblem/ComponentA';
-
-import UseRefTut from './UseRefProblem/UseRefTut';
+//import UseRefTut from './UseRefProblem/UseRefTut';
 
 function App() {
   return(
   <>
-  <UseRefTut />
   </>
   );
 }
