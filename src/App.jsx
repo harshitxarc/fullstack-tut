@@ -9,16 +9,16 @@
 // import ToDoList from './ToDoListApp/ToDoList.jsx';
 // import UseEffectTut from './UseEffectProblem/UseEffectTut.jsx';
 // import UseEffectTut2 from './UseEffectProblem/UseEffectTut2.jsx';
-import DigitalClock from './DigitalClockApp/DigitalClock.jsx';
+// import DigitalClock from './DigitalClockApp/DigitalClock.jsx';
 // import ComponentA from './UseContextProblem/ComponentA';
 // import UseRefTut from './UseRefProblem/UseRefTut';
 // import UseRefTut2 from './UseRefProblem/UseRefTut2';
-// import StopWatch from './StopWatchApp/StopWatch';
+import StopWatch from './StopWatchApp/StopWatch';
 
 function App() {
   return(
   <>
-  <DigitalClock />
+  <StopWatch />
   </>
   );
 }
